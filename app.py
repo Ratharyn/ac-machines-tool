@@ -25,7 +25,7 @@ You are an Electrical Engineering exam writer.
 
 # Configure the Gemini Model with Code Execution enabled
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro",
+    model_name="gemini-1.5-latest",
     system_instruction=system_instruction,
     tools="code_execution" 
 )
